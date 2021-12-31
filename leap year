@@ -1,0 +1,43 @@
+include <stdio.h>
+
+int main(void)
+ {
+   int year;
+   printf("enter a year");
+   scanf("%d",&year);
+   if(year%400==0)
+   {
+     printf("%d is a leap year",year);
+   } 
+  else if(year%100==0)
+   {
+     printf("%d is a leap year",year);
+   } 
+   else if(year%4==0)
+   {
+     printf("%d is a leap year",year);
+   }    
+   else{
+     printf("%d is non leap year",year);
+   }
+   return 0;
+ }
+
+
+enter a year2004
+2004 is a leap year 
+
+
+enter a year2008
+2008 is a leap year 
+
+enter a year2009
+2009 is non leap year 
+
+nter a year20010
+20010 is non leap year 
+
+
+
+
+
